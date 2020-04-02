@@ -1,0 +1,225 @@
+Dependencies for Project 'EPTS_PERFANL_STM_BL', Target 'stm32l053': (DO NOT MODIFY !)
+F (.\main.c)(0x5E85314A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/main.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\hw.h)(0x5E009687)
+I (Source\inc\gpio.h)(0x5DE15342)
+I (Source\inc\led.h)(0x5E643AAC)
+I (Source\inc\button.h)(0x5E13D1B1)
+I (Source\inc\systick.h)(0x5E734F0F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C412A7A)
+I (Source\inc\mma8452q.h)(0x5E6C189C)
+I (Source\inc\fxas21002.h)(0x5D63289D)
+I (Source\inc\i2c.h)(0x5E763108)
+I (Source\inc\iis2mdc_reg.h)(0x5D632880)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5C412A7A)
+I (Source\inc\cam_m8q.h)(0x5E71EB29)
+I (Source\inc\flags.h)(0x5E7E026D)
+I (Source\inc\zigbee.h)(0x5E852D95)
+I (Source\inc\rtc.h)(0x5E1E8847)
+I (Source\inc\btn.h)(0x5E09C1B4)
+F (.\Source\src\button.c)(0x5E723F33)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/button.o -MD)
+I (Source\inc\button.h)(0x5E13D1B1)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\gpio.h)(0x5DE15342)
+I (Source\inc\led.h)(0x5E643AAC)
+I (Source\inc\systick.h)(0x5E734F0F)
+I (Source\inc\selenoid.h)(0x5DEAE03E)
+I (Source\inc\nxp_lcd_driver.h)(0x5E348DEF)
+I (Source\inc\rtc.h)(0x5E1E8847)
+I (Source\inc\btn.h)(0x5E09C1B4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C412A7A)
+F (.\Source\src\gpio.c)(0x5E725123)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/gpio.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5C412A7A)
+I (Source\inc\gpio.h)(0x5DE15342)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+F (.\Source\src\hw.c)(0x5E8517B3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/hw.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\config.h)(0x5DE9ED4C)
+I (Source\inc\led.h)(0x5E643AAC)
+I (Source\inc\lcd.h)(0x5DE7A178)
+I (Source\inc\button.h)(0x5E13D1B1)
+I (Source\inc\selenoid.h)(0x5DEAE03E)
+I (Source\inc\systick.h)(0x5E734F0F)
+I (Source\inc\btn.h)(0x5E09C1B4)
+I (Source\inc\gpio.h)(0x5DE15342)
+I (Source\inc\i2c.h)(0x5E763108)
+I (Source\inc\rtc.h)(0x5E1E8847)
+I (Source\inc\adc.h)(0x5DDDB842)
+I (Source\inc\nxp_lcd_driver.h)(0x5E348DEF)
+F (.\Source\src\interrupt.c)(0x5E83E9A3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/interrupt.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\flags.h)(0x5E7E026D)
+I (Source\inc\systick.h)(0x5E734F0F)
+I (Source\inc\btn.h)(0x5E09C1B4)
+I (Source\inc\rtc.h)(0x5E1E8847)
+I (Source\inc\hw.h)(0x5E009687)
+I (Source\inc\selenoid.h)(0x5DEAE03E)
+I (Source\inc\nxp_lcd_driver.h)(0x5E348DEF)
+F (.\Source\src\led.c)(0x5E6A2145)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/led.o -MD)
+I (Source\inc\led.h)(0x5E643AAC)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\gpio.h)(0x5DE15342)
+F (.\Source\src\mma8452q.c)(0x5E8516EE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/mma8452q.o -MD)
+I (Source\inc\flags.h)(0x5E7E026D)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\i2c.h)(0x5E763108)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C412A7A)
+I (Source\inc\mma8452q.h)(0x5E6C189C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5C412A7A)
+F (.\Source\src\cam_m8q.c)(0x5E7A4622)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/cam_m8q.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C412A7A)
+I (Source\inc\cam_m8q.h)(0x5E71EB29)
+I (Source\inc\flags.h)(0x5E7E026D)
+I (Source\inc\systick.h)(0x5E734F0F)
+F (.\Source\src\zigbee.c)(0x5E852D67)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/zigbee.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5C412A7A)
+I (Source\inc\flags.h)(0x5E7E026D)
+I (Source\inc\systick.h)(0x5E734F0F)
+I (Source\inc\cam_m8q.h)(0x5E71EB29)
+I (Source\inc\zigbee.h)(0x5E852D95)
+I (Source\inc\mma8452q.h)(0x5E6C189C)
+I (Source\inc\fxas21002.h)(0x5D63289D)
+I (Source\inc\i2c.h)(0x5E763108)
+I (Source\inc\gpio.h)(0x5DE15342)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (Source\inc\iis2mdc_reg.h)(0x5D632880)
+F (.\Source\src\rtc.c)(0x5E777341)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/rtc.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\config.h)(0x5DE9ED4C)
+I (Source\inc\led.h)(0x5E643AAC)
+I (Source\inc\lcd.h)(0x5DE7A178)
+I (Source\inc\button.h)(0x5E13D1B1)
+I (Source\inc\selenoid.h)(0x5DEAE03E)
+I (Source\inc\systick.h)(0x5E734F0F)
+I (Source\inc\btn.h)(0x5E09C1B4)
+I (Source\inc\gpio.h)(0x5DE15342)
+I (Source\inc\adc.h)(0x5DDDB842)
+I (Source\inc\nxp_lcd_driver.h)(0x5E348DEF)
+F (.\Source\src\fxas21002.c)(0x5E83E912)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/fxas21002.o -MD)
+I (Source\inc\flags.h)(0x5E7E026D)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5C412A7A)
+I (Source\inc\fxas21002.h)(0x5D63289D)
+I (Source\inc\i2c.h)(0x5E763108)
+I (Source\inc\gpio.h)(0x5DE15342)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5C412A7A)
+F (.\Source\src\i2c.c)(0x5E776EE1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/i2c.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\I2C.h)(0x5E763108)
+I (Source\inc\interrupt.h)(0x56D1819E)
+I (Source\inc\systick.h)(0x5E734F0F)
+I (Source\inc\nxp_lcd_driver.h)(0x5E348DEF)
+F (.\Source\src\iis2mdc_reg.c)(0x5E83E910)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/iis2mdc_reg.o -MD)
+I (Source\inc\flags.h)(0x5E7E026D)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\iis2mdc_reg.h)(0x5D632880)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5C412A7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5C412A7A)
+I (Source\inc\i2c.h)(0x5E763108)
+F (.\Source\src\systick.c)(0x5E853136)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/systick.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)
+I (Source\inc\systick.h)(0x5E734F0F)
+I (Source\inc\nxp_lcd_driver.h)(0x5E348DEF)
+I (Source\inc\selenoid.h)(0x5DEAE03E)
+F (.\Source\src\startup_stm32l053xx.s)(0x5E851D45)(--cpu Cortex-M0+ -g-I.\RTE\_stm32l053-IC:\Users\Hamit\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527"--pd "STM32L053xx SETA 1"--list .\listings\startup_stm32l053xx.lst--xref -o .\objects\startup_stm32l053xx.o--depend .\objects\startup_stm32l053xx.d)
+F (.\Source\src\system_stm32l0xx.c)(0x5E7244F5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Source/inc -I ./CMSIS/Include -I ./CMSIS/Device/ST/STM32L0xx/Include -I ../EPTS_PERFANL_STM_BL-I./RTE/_stm32l053-IC:/Users/Hamit/AppData/Local/Arm/Packs/Keil/STM32L0xx_DFP/2.0.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DSTM32L053xx-o ./objects/system_stm32l0xx.o -MD)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5DD7193F)
+I (CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h)(0x5E24F5F1)
+I (CMSIS\Include\core_cm0plus.h)(0x5E7352AD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5C412A7A)
+I (CMSIS\Include\core_cmInstr.h)(0x56D1819E)
+I (CMSIS\Include\core_cmFunc.h)(0x56D1819E)
+I (CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5E722DAD)

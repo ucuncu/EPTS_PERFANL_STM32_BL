@@ -1,0 +1,10 @@
+.\objects\serial.o: Source\src\Serial.c
+.\objects\serial.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h
+.\objects\serial.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\serial.o: .\CMSIS\Include\core_cm0plus.h
+.\objects\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\serial.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\serial.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\serial.o: .\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h
+.\objects\serial.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\serial.o: .\Source\inc\Serial.h

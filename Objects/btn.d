@@ -1,0 +1,14 @@
+.\objects\btn.o: Source\src\btn.c
+.\objects\btn.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\btn.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\btn.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\btn.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\btn.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h
+.\objects\btn.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\btn.o: .\CMSIS\Include\core_cm0plus.h
+.\objects\btn.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\btn.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\btn.o: .\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h
+.\objects\btn.o: .\Source\inc\config.h
+.\objects\btn.o: .\Source\inc\btn.h
+.\objects\btn.o: .\Source\inc\gpio.h

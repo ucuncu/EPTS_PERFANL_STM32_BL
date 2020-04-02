@@ -1,0 +1,11 @@
+.\objects\fat32.o: Source\src\fat32.c
+.\objects\fat32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\fat32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\fat32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\fat32.o: .\Source\inc\flags.h
+.\objects\fat32.o: .\CMSIS\Device\ST\STM32L0xx\Include\stm32l053xx.h
+.\objects\fat32.o: .\CMSIS\Include\core_cm0plus.h
+.\objects\fat32.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\fat32.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\fat32.o: .\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h
+.\objects\fat32.o: .\Source\inc\fat32.h

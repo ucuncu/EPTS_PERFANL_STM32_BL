@@ -1,0 +1,21 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\button.o"
+".\objects\gpio.o"
+".\objects\hw.o"
+".\objects\interrupt.o"
+".\objects\led.o"
+".\objects\mma8452q.o"
+".\objects\cam_m8q.o"
+".\objects\zigbee.o"
+".\objects\rtc.o"
+".\objects\fxas21002.o"
+".\objects\i2c.o"
+".\objects\iis2mdc_reg.o"
+".\objects\systick.o"
+".\objects\startup_stm32l053xx.o"
+".\objects\system_stm32l0xx.o"
+--strict --scatter ".\Objects\EPTS_PERFANL_STM_BL.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\EPTS_PERFANL_STM_BL.map" -o .\Objects\EPTS_PERFANL_STM_BL.axf
